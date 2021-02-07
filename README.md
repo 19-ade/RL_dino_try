@@ -194,7 +194,7 @@ In a DQN we enter the state into the neural network as the input and we get the 
 - This [resource](https://medium.com/acing-ai/how-i-build-an-ai-to-play-dino-run-e37f37bdf153) was a great help in understanding how to tackle the problem at hand. I did not implement his code but his reward function is fantastic. With each passing iteration the negative reward for crashing decreses while the reward for surviving increases giving the agent incentive to increase reward.
 -  This [youtube](https://youtu.be/wYIiMH1cIis) gave a beginner like me an idea on how to implement the deep q .
 - This [resource](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html) for the picture of the mdp architecture.
-
+- [David Silver Lectures](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9-)
 
 
 
