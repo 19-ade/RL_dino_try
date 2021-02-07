@@ -15,4 +15,4 @@ install("collection")
 install("opencv-python")
 install("tensorflow")
 install("numpy")
-
+install("matplotlib")
