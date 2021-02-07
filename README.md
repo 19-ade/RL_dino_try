@@ -198,7 +198,7 @@ In a DQN we enter the state into the neural network as the input and we get the 
 
 
 **sailent features** :
-- The input: Applying RL techniques to teach the agent to play Atari games is a common practise. I have learnt that to produce a sense of motion in games we need to stack 3-4 snapshots of the game enviroment together . So each input state for the CNN(since its pixel data) will be 4 screenshots stacked together. The shape for the input in my program is (20,40,4). 
+- The input: Applying RL techniques to teach the agent to play Atari games is a common practise. I have learnt that to produce a sense of motion in games we need to stack 3-4 snapshots of the game enviroment together . So each input state for the CNN(since its pixel data) will be 4 screenshots stacked together. The shape for the input in my program is (20,50,4). 
 
 
 - Experience Replay: The big problem faced is if we send the outputs in a sequential manner the inputs maybe heavily correleated . This correleation will have a harmful effect on the model and we get a bad output . To counter this the agent plays the game for a specific number of times . All the observations(s,a,r , s') are then stored in memory. Then from this memory we randomly pick a fixed number of observations(batch_size=64 in our case) to train the CNN. This increases the speed , and reduces the danger of correlation.
