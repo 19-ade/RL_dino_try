@@ -49,6 +49,11 @@ python requirements.py
 python test.py
 
 ```
+<p>
+  <img src="Screenshot from 2021-02-07 11-32-43.png">
+</p>
+
+The enviroment should render on the top right corner .
 
 6.Now we are ready!  Run the  **ai_run.py** script. Here  can see the pre-trained agent playing the game using the pretrained model(vidw_model.h5).
 
@@ -57,12 +62,18 @@ python ai_run.py
 
 ```
 
+
+
 7. One can train the model using the **main.py**. 
 
 - uncomment the last few lines in main method.
 
+<p>
+  <img src="Screenshot from 2021-02-07 15-24-30.png">
+</p>
 
-- after than the **main.py** can be executed
+
+- after that the **main.py** can be executed
 ```
 python main.py
 
@@ -72,14 +83,13 @@ python main.py
 
 
 #### Troubleshooting:
-![hello](Screenshot from 2021-02-07 11-32-43.png)
 
+- The gym wrapper downloads the most recent chromedriver . This happens when the google chrome version is not the latest version available.In that case one must check the google chrome version present and install the chromedriver for the specific version . One can access this [site](https://chromedriver.chromium.org/) for the chromedriver. Pls paste the chromedriver in the RL_dino_try folder.
+<p>
+  <img src="Screenshot from 2021-02-07 11-28-45.png" >
+</p>
 
-
-
-
-
-
+- 
 
 
 
@@ -113,6 +123,10 @@ The states which follow this Principle are called Markov states.
 Based on this we make the MDP (Markov Decision Process) . 
 
 The basic architecture of a Rl model consistes of an **Agent**, **Enviroment**, **Actions**, **Rewards**, **State**.
+
+<p>
+  <img src="RL_illustration.png">
+</p>
 
 
 The Agent performs an action in the enviroment at time t while being in the state S<sub>t</sub> and obtains the next state S<sub>t+1</sub> and Reward R<sub>t</sub>
