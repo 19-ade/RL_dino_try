@@ -5,7 +5,7 @@ enviroment can be found [here](https://github.com/19-ade/gym-dino-game)
 
 ## Setting up the enviroment
 ------------------------------------------------------------------------
-**Please make sure you have Google chrome installed*
+**Please make sure you have Google chrome and pip installed*
 
 1. Clone the RL_dino_try repo
 
