@@ -7,7 +7,7 @@ from collections import deque
 import random
 import cv2
 import tensorflow as tf
-
+import matplotlib.pyplot as plt 
 import warnings
 
 warnings.filterwarnings('ignore')
