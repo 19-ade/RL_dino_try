@@ -14,6 +14,8 @@ warnings.filterwarnings('ignore')
 
 
 tf.compat.v1.disable_eager_execution()
+#THis enviroment only uses jump and run. acceleration is set to 0.
+
 env=gym.make("DinoGameHeadless-v0") #here we make the headless enviroment for gym
 
 #this is to convert the RGB pixel data (150,600,3) size to (20,50,1)
