@@ -230,7 +230,7 @@ def training(stacked_frames):
             (next_state, reward, done, _) = env.step(action)
             episode_rewards.append(reward)
             if done:
-                next_state = np.zeros((20, 50, 3), dtype=np.float32)
+                next_state = np.zeros((20, 50, 4), dtype=np.float32)
 
                 (next_state, stacked_frames) = \
                     stack_frames(stacked_frames, next_state, False)
